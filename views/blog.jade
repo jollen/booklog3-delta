@@ -1,0 +1,10 @@
+html
+  head
+    title Blog List
+  body
+    img(src='/images/cover.jpg')
+    ul
+      each post in posts
+        li= post.title
+          |,
+          =post.content	
